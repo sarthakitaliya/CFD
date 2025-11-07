@@ -10,7 +10,7 @@ A compact CFD trading platform: leveraged long/short, instant order execution, m
 - Pluggable storage (DB store service) and queue-based processing
 
 ## Architecture
-![Architecture](./architecture.png)
+![Architecture](/architecture.png)
 
 **Flow (high level):**
 1. **Backend** receives orders and pushes messages to **queue**.
